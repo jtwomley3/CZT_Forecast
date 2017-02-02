@@ -7,6 +7,8 @@ public class GuessingGameLauncher {
 	
 	GuessingGame newgame = new GuessingGame();
 	newgame.startGame();
+
+	// This line does nothing...literally	
 	
 	//This is a different comment
 	
