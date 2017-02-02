@@ -8,5 +8,7 @@ public class GuessingGameLauncher {
 	GuessingGame newgame = new GuessingGame();
 	newgame.startGame();
 	
+	//This is a different comment
+	
 	}
 }
