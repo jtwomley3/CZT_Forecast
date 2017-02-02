@@ -3,18 +3,26 @@ package main;
 public class Loopy {
 
 	public static void main(String[] args) {
-		System.out.println("Before the Loop.");
+		String word = ("Bottles");
 		
-		int i = 0;
+		int numBottles = 99;
 		
-		while (i < 4){
-			System.out.println("iteration currently i = " + i);
+		while (numBottles > 0){
+			System.out.println(numBottles + " " + word + " of beer on the wall,");
+			System.out.println(numBottles + " " + word + " of beer.");
+			System.out.println("Take one down,");
+			System.out.println("Pass it around,");
 			
-			i++;
+			numBottles = numBottles - 1;
+			
+			if (numBottles > 0){
+				System.out.println(numBottles + " " + word + " of beer on the wall.");
+				
+			}
+			else {
+				System.out.println("No more bottles of beer on the wall!");
+			}
 		}
-		
-		System.out.println("After the Loop.");
-		
 	}
 
 }
